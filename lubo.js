@@ -4,7 +4,8 @@
 // let leftBth = document.querySelector(".nav .content-o .box-o-1 .o-leftBth");
 // let rightBth = document.querySelector(".nav .content-o .box-o-1 .o-rightBth");
 // small(boxSm,widthSm,dotSm,leftBth,rightBth);
-function small(boxSm,widthSm,dotSm,leftBth,rightBth) {
+// console.log(boxSm,widthSm,dotSm,leftBth,rightBth);
+function small(boxSm, widthSm, dotSm, leftBth, rightBth) {
     let nowS = 0;
     let nextS = 0;
     boxSm[0].style.left = "0";
@@ -49,6 +50,8 @@ function small(boxSm,widthSm,dotSm,leftBth,rightBth) {
     }
 }
 
+
+
 // 家电选项卡
 // let boxer = document.querySelectorAll(".home .content .case .trd");
 // let name = document.querySelectorAll(".home .head-h a");
@@ -65,7 +68,6 @@ function small(boxSm,widthSm,dotSm,leftBth,rightBth) {
 //         }
 //     }
 // }
-
 
 
 // let btnR = document.querySelector(".dotR");
