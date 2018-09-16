@@ -791,6 +791,54 @@ input.text {
     margin: 0 auto;
 }
 
+.phone.left{
+    width: 234px;
+    height: 339px;
+    margin-right: 12px;
+    background: #fafafa;
+    border-top: 1px solid #e53935;
+    float: left;
+}
+.phone .left .time{
+    font-size: 21px;
+    color: #ef3a3b;
+    padding-top: 15px;
+    text-align: center;
+    margin-top: 40px;
+}
+.phone .left img{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.phone .left .sub{
+    color: rgba(0,0,0,0.54);
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+.phone .left .ph_nav{
+    width: 168px;
+    margin: 28px auto 0;
+}
+.phone .left .ph_nav .box{
+    width: 46px;
+    height: 46px;
+    background: #605751;
+    color: #fff;
+    font-size: 24px;
+    line-height: 46px;
+    text-align: center;
+    float: left;
+}
+.phone .left .ph_nav .dosh_m{
+    width: 15px;
+    height: 46px;
+    float: left;
+    color: #605751;
+    font-size: 28px;
+    line-height: 46px;
+    text-align: center;
+}
 .phone .head-p {
     width: 100%;
     height: 52px;
@@ -1566,9 +1614,6 @@ input.text {
     border: 1px solid #FF6700;
 }
 
-#uu ul li:hover {
-    background: #FF6700;
-}
 
 .nav .content-o .box-o-1 .o-leftBth {
     width: 20px;
@@ -2435,6 +2480,7 @@ footer .container .over {
 }
 .fixed ul li:nth-child(4){
     margin-top: 14px;
+    opacity: 0;
 }
 .fixed ul li i {
     font-size: 26px;

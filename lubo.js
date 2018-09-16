@@ -9,6 +9,7 @@ function small(boxSm, widthSm, dotSm, leftBth, rightBth) {
     let nowS = 0;
     let nextS = 0;
     boxSm[0].style.left = "0";
+
     rightBth.onclick = function () {
         if (nextS === boxSm.length - 1) {
             return;
@@ -46,6 +47,7 @@ function small(boxSm, widthSm, dotSm, leftBth, rightBth) {
             dotSm[i].classList.add("uu-selected");
             nowS = i;
             nextS = i;
+            console.log(nowS, nextS);
         }
     }
 }
@@ -92,3 +94,5 @@ function small(boxSm, widthSm, dotSm, leftBth, rightBth) {
 //     }
 //     box.style.transform = `translate(${-w * time}px)`;
 // }
+
+
